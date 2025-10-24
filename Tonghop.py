@@ -13,7 +13,7 @@ for row in sheet.iter_rows(min_row= 2, values_only=True):
         No= int(stt)
     except Exception as e:
         print(e)
-    if Score >=9:
+    if Score >=9::
         students.append({
             "ID" : ID,
             "Name" : Tên,
